@@ -6,6 +6,8 @@ permissions:
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'test.txt'
   workflow_dispatch:
 
 jobs:
